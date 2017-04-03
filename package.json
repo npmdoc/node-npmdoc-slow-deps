@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"slow-deps",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "slow-deps",
+    "description": "api documentation for [slow-deps (v1.4.0)](https://github.com/nolanlawson/slow-deps#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-slow-deps.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-slow-deps) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-slow-deps.svg)](https://travis-ci.org/npmdoc/node-npmdoc-slow-deps)",
     "devDependencies": {
-        "slow-deps": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "slow-deps": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-slow-deps",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-slow-deps",
+    "keywords": [
+        "documentation",
+        "slow-deps"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_slow_deps.js",
+    "name": "npmdoc-slow-deps",
+    "nameAlias": "npmdoc_slow_deps",
+    "nameOriginal": "npmdoc-slow-deps",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-slow-deps.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
