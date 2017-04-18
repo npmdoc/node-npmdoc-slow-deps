@@ -1,9 +1,14 @@
-# api documentation for  [slow-deps (v1.4.0)](https://github.com/nolanlawson/slow-deps#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-slow-deps.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-slow-deps) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-slow-deps.svg)](https://travis-ci.org/npmdoc/node-npmdoc-slow-deps)
+# npmdoc-slow-deps
+
+#### api documentation for  [slow-deps (v1.4.0)](https://github.com/nolanlawson/slow-deps#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-slow-deps.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-slow-deps) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-slow-deps.svg)](https://travis-ci.org/npmdoc/node-npmdoc-slow-deps)
+
 #### Measure which dependencies in a project are slowest to install
 
-[![NPM](https://nodei.co/npm/slow-deps.png?downloads=true)](https://www.npmjs.com/package/slow-deps)
+[![NPM](https://nodei.co/npm/slow-deps.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/slow-deps)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-slow-deps/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-slow-deps_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-slow-deps/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-slow-deps/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-slow-deps/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-slow-deps/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-slow-deps/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-slow-deps/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Nolan Lawson",
-        "email": "nolan@nolanlawson.com"
+        "name": "Nolan Lawson"
     },
     "bin": {
         "slow-deps": "index.js"
@@ -66,13 +70,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "nolanlawson",
-            "email": "nolan@nolanlawson.com"
+            "name": "nolanlawson"
         }
     ],
     "name": "slow-deps",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/nolanlawson/slow-deps.git"
@@ -83,16 +85,6 @@
     "version": "1.4.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module slow-deps](#apidoc.module.slow-deps)
-
-
-
-# <a name="apidoc.module.slow-deps"></a>[module slow-deps](#apidoc.module.slow-deps)
 
 
 
